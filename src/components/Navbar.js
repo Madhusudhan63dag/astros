@@ -99,16 +99,16 @@ function Navbar({ lang, setLang }) {
 
   const navItems = [
     { to: "/", label: lang === "mr" ? "मुख्य पान" : "Home" },
-    { to: "/about", label: lang === "mr" ? "आमच्याबद्दल" : "About" },
-    { to: "/gallery", label: lang === "mr" ? "गॅलरी" : "Gallery" },
+    // { to: "/about", label: lang === "mr" ? "आमच्याबद्दल" : "About" },
+    // { to: "/gallery", label: lang === "mr" ? "गॅलरी" : "Gallery" },
     { to: "/contact", label: lang === "mr" ? "संपर्क" : "Contact" },
   ];
 
   return (
     <>
-      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
+      <header className="sticky top-0 z-50 bg-white backdrop-blur-sm border-b border-gray-200 shadow-sm">
         <div className="container mx-auto px-4">
-          <div className="flex h-16 items-center justify-between">
+          <div className="flex h-20 items-center justify-between">
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link 
@@ -116,7 +116,7 @@ function Navbar({ lang, setLang }) {
                 className="flex items-center gap-2 font-semibold tracking-tight text-gray-900 hover:opacity-80 transition-opacity duration-200"
                 onClick={closeMobileMenu}
               >
-                <img src={logo} alt="Maharashtra Agro Logo" className="h-10 sm:h-12 md:h-14 object-contain" />
+                <img src={logo} alt="Maharashtra Agro Logo" className="h-10 sm:h-12 md:h-20 object-contain" />
               </Link>
             </div>
 
@@ -142,12 +142,12 @@ function Navbar({ lang, setLang }) {
               >
                 {lang === "mr" ? "सदस्य व्हा" : "Join as a Member"}
               </Link>
-              <Link
+              {/* <Link
                 to="/about"
                 className="inline-flex items-center justify-center rounded-lg bg-gray-800 px-4 py-2.5 text-sm font-medium text-white hover:bg-gray-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-700 transition-colors duration-200 shadow-sm"
               >
                 {lang === "mr" ? "अधिक जाणून घ्या" : "Learn More"}
-              </Link>
+              </Link> */}
               <LangSwitch lang={lang} setLang={setLang} />
             </div>
 
@@ -190,14 +190,14 @@ function Navbar({ lang, setLang }) {
                   <span className="mr-2">👥</span>
                   {lang === "mr" ? "सदस्य व्हा" : "Join as a Member"}
                 </Link>
-                <Link
+                {/* <Link
                   to="/about"
                   className="flex items-center justify-center w-full rounded-lg bg-gray-800 px-4 py-3 text-sm font-medium text-white hover:bg-gray-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-700 transition-colors duration-200"
                   onClick={closeMobileMenu}
                 >
                   <span className="mr-2">ℹ️</span>
                   {lang === "mr" ? "अधिक जाणून घ्या" : "Learn More"}
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
