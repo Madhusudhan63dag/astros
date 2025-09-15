@@ -397,7 +397,7 @@ export default function Home({ lang = "en" }) {
             
             <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
               {/* Certificate 1 */}
-              <div className="animate-on-scroll">
+              {/* <div className="animate-on-scroll">
                 <div className="bg-white rounded-2xl shadow-xl overflow-hidden card-hover group">
                   <div className=" overflow-hidden">
                     <img 
@@ -406,7 +406,7 @@ export default function Home({ lang = "en" }) {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
-                  {/* <div className="p-6">
+                  <div className="p-6">
                     <div className="flex items-center mb-3">
                       <div className="w-8 h-8 bg-yellow-100 rounded-full flex items-center justify-center mr-3">
                         <svg className="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -425,9 +425,9 @@ export default function Home({ lang = "en" }) {
                         ? "शेती क्षेत्रातील उत्कृष्ट कामगिरीसाठी मिळालेले मान्यता प्रमाणपत्र"
                         : "Recognition certificate for outstanding performance in agricultural sector"}
                     </p>
-                  </div> */}
+                  </div>
                 </div>
-              </div>
+              </div> */}
               
               {/* Certificate 2 */}
               <div className="animate-on-scroll">

@@ -84,7 +84,7 @@ function Contact({ lang }) {
   setSubmitStatus(null);
 
   try {
-    const response = await fetch("https://formsubmit.co/dmadhusudhan98@gmail.com", {
+    const response = await fetch("https://formsubmit.co/maharashtraagro123@gmail.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded"
