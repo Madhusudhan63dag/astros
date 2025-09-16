@@ -245,8 +245,8 @@ function Contact({ lang }) {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                      <a href="mailto:info@maharashtraagro.com" className="text-blue-600 hover:text-blue-700 transition-colors">
-                        info@maharashtraagro.com
+                      <a href="mailto:Mahaagromcsl@gmail.com" className="text-blue-600 hover:text-blue-700 transition-colors">
+                        Mahaagromcsl@gmail.com
                       </a>
                     </div>
                   </div>
